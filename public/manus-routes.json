@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","name":"HomePage"},{"path":"/system","name":"SystemPage"},{"path":"/privacy","name":"PrivacyPage"},{"path":"/terms","name":"TermsPage"},{"path":"/disclaimer","name":"DisclaimerPage"},{"path":"/contact","name":"ContactPage"}]}

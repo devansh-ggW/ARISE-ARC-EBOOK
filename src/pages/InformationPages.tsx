@@ -60,7 +60,7 @@ export function ContactPage() {
       setError('Please complete each field before preparing your message.');
       return;
     }
-    if (!/^.*$/.test(email.trim())) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
       setStatus('error');
       setError('Enter an email address in a format like name@example.com.');
       return;
